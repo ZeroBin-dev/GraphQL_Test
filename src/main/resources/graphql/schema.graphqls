@@ -1,0 +1,9 @@
+type Query {
+    getBookById(id: ID!): Book
+}
+
+type Book {
+    id: ID!
+    title: String
+    author: String
+}
